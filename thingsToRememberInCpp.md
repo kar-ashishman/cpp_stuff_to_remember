@@ -41,4 +41,11 @@ int main() {
 Do this wherever it is possible, such that functions <br>
 will not be able to accidentally change the data that belongs to their parent functions
 
+> 05: THREADS
+
+* #include <thread> std::thread thread1(functionPtr, arg1, arg2, ....)
+* thread1.join()
+* std::this_thread::get_id() -> denotes the current thread
+* [ capture_clause ] ( parameters ) -> return_type {};
+
 
